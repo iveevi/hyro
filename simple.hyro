@@ -1,0 +1,20 @@
+v = vec2(0, 8)
+s = "this is a string"
+c0 = circle { min: vec2(0, 0), max: vec2(0.5, 0.5) }
+c1 = circle { min: vec2(-0.2, 0.6), max: vec2(0.2, 0.7) }
+c2 = circle { min: vec2(-0.5, -0.5), max: vec2(-0.3, -0.3) }
+circles = [ c0, c1, c2 ]
+
+final.push(
+	window {
+		size: vec2(1000, 1000),
+		title: "Simple Hyro Example",
+		elements: circles
+	},
+
+	window {
+		size: vec2(100, 100),
+		title: "Simple Hyro Example (2)",
+		elements: [ c1 ]
+	}
+)

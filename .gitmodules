@@ -1,0 +1,15 @@
+[submodule "thirdparty/glm"]
+	path = thirdparty/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "thirdparty/lexy"]
+	path = thirdparty/lexy
+	url = https://github.com/foonathan/lexy.git
+[submodule "thirdparty/fmt"]
+	path = thirdparty/fmt
+	url = https://github.com/fmtlib/fmt
+[submodule "thirdparty/cppsl"]
+	path = thirdparty/cppsl
+	url = https://github.com/vedavamadathil/cppsl.git
+[submodule "thirdparty/littlevk"]
+	path = thirdparty/littlevk
+	url = https://github.com/vedavamadathil/littlevk.git
